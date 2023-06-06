@@ -1,0 +1,14 @@
+<div class="card-details">
+  <div class="card-details-info">
+    <img [src]="cardDetails?.avatar" alt="Avatar" class="avatar">
+    <h3>{{ cardDetails?.first_name }} {{ cardDetails?.last_name }}</h3>
+    <p>ID: {{ cardDetails?.id }}</p>
+    <p>Email: {{ cardDetails.email }}</p>
+    
+  </div>
+  <div class="back-button">
+    <button (click)="goBack()">Back</button>
+  </div>  
+</div>
+
+  
